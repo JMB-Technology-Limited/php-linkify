@@ -5,6 +5,7 @@ Unreleased
 ----------
 
 * Add Vagrant Box
+* Minimum PHP Version is now 7.0.0
 
 1.1.4
 -----
