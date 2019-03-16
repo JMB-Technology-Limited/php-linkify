@@ -247,6 +247,18 @@
         {
             "test": "https://www.example.com/a_(aaaaaaaaaaaaaaaaa)a",
             "expected": "<a href=\"https://www.example.com/a_(aaaaaaaaaaaaaaaaa)a\">https://www.example.com/a_(aaaaaaaaaaaaaaaaa)a</a>"
+        },
+        {
+            "test": "https://global.canon/en/index.html",
+            "expected": "<a href=\"https://global.canon/en/index.html\">https://global.canon/en/index.html</a>"
+        },
+        {
+            "test": "Take www.global.canon/en/index.html photos.",
+            "expected": "Take <a href=\"http://www.global.canon/en/index.html\">www.global.canon/en/index.html</a> photos."
+        },
+        {
+            "test": "Take www.global.canon photos.",
+            "expected": "Take <a href=\"http://www.global.canon\">www.global.canon</a> photos."
         }
     ]
 }
