@@ -22,7 +22,7 @@ It uses regex based on John Gruber's [Improved Liberal, Accurate Regex Pattern f
 Installation
 ------------
 
-`composer require misd/linkify`
+`composer require jmbtechnologylimited/linkify`
 
 Usage
 -----
