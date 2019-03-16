@@ -6,6 +6,7 @@ Unreleased
 
 * Add Vagrant Box
 * Minimum PHP Version is now 7.0.0
+* When finding emails, allow long TLDs https://github.com/misd-service-development/php-linkify/issues/30
 
 1.1.4
 -----

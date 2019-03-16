@@ -200,7 +200,7 @@ class Linkify implements LinkifyInterface
                 @                # At
                 [A-Z0-9.-]+      # Domain
                 \.               # Dot
-                [A-Z]{2,4}       # Something
+                [A-Z]{2,24}       # Something
         ~u';
 
         $callback = function ($match) use ($options) {

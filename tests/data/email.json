@@ -155,6 +155,10 @@
                 ]
             },
             "expected": "<a href=\"mailto:example@example.com\" class=\"foo bar\" name=\"baz\">example@example.com</a>"
+        },
+        {
+            "test": "Email:example@global.canon",
+            "expected": "Email:<a href=\"mailto:example@global.canon\">example@global.canon</a>"
         }
     ]
 }
